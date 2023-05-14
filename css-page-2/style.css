@@ -18,7 +18,7 @@ body {
   left: 0;
   right: 0;
   text-align: center;
-  background: linear-gradient(90deg, #3c56ff, #a200ff);
+  background: linear-gradient(-54deg, #171a21, #19274b);
   box-shadow: 0px 0px 21px 0px rgba(18, 14, 14, 0.88);
   overflow: hidden;
   padding: 20px 8px;
@@ -51,18 +51,32 @@ body {
 .gear {
   width: 27px;
   height: 27px;
-  color: #8c8c8c;
+  filter: invert(98%) sepia(1%) saturate(224%) hue-rotate(195deg)
+    brightness(114%) contrast(80%);
+}
+
+.gear:hover {
+  filter: invert(52%) sepia(0%) saturate(78%) hue-rotate(194deg)
+    brightness(106%) contrast(94%);
+  transition-duration: 0.25s;
 }
 
 .loupe {
   width: 27px;
   height: 27px;
-  fill: #8c8c8c;
-  color: #8c8c8c;
+  filter: invert(98%) sepia(1%) saturate(224%) hue-rotate(195deg)
+    brightness(114%) contrast(80%);
+}
+
+.loupe:hover {
+  filter: invert(52%) sepia(0%) saturate(78%) hue-rotate(194deg)
+    brightness(106%) contrast(94%);
+  transition-duration: 0.25s;
 }
 
 .nav_bar {
-  background: linear-gradient(90deg, #0022ff, #e600ff);
+  background: linear-gradient(-54deg, #4a5a86, hsl(223, 50%, 20%));
+  box-shadow: 0px 0px 21px 0px #4a5a86;
   top: 0;
   left: 0;
   right: 0;

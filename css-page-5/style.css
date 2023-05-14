@@ -18,13 +18,14 @@ body {
   left: 0;
   right: 0;
   text-align: center;
-  background: linear-gradient(90deg, #3c56ff, #a200ff);
+  background: linear-gradient(-54deg, #171a21, #19274b);
   box-shadow: 0px 0px 21px 0px rgba(18, 14, 14, 0.88);
   overflow: hidden;
   padding: 20px 8px;
   z-index: 10;
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 
 .navigation-links-active {
@@ -180,8 +181,13 @@ body {
   font-size: 14px;
   justify-content: center;
   color: #ffcc6a;
-  font-weight: bold;
   bottom: 15px;
+}
+
+.experiments-btn:hover {
+  color: #ffa600;
+  background-color: #17150f;
+  transition-duration: 0.25s;
 }
 
 .footer {
