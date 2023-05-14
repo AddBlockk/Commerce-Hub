@@ -28,4 +28,8 @@
   .games_news-buildboard {
     display: block;
   }
+
+  .table-desktop {
+    max-width: 320px;
+  }
 }
