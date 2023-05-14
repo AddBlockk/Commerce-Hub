@@ -1,0 +1,145 @@
+body {
+  background: #181d3a;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1ch;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 50%);
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+  min-width: 0px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: linear-gradient(90deg, #3c56ff, #a200ff);
+  box-shadow: 0px 0px 21px 0px rgba(18, 14, 14, 0.88);
+  overflow: hidden;
+  padding: 20px 8px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-links-active {
+  max-width: max-content;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.logo {
+  display: flex;
+  width: 44px;
+}
+
+.logo_name {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: left;
+  max-width: 150px;
+  display: flex;
+  gap: 10px;
+}
+
+.logo_name:hover {
+  color: rgb(0, 195, 255);
+  transition-duration: 0.25s;
+}
+
+.laboratory {
+  margin-top: 120px;
+}
+
+.section_title {
+  line-height: 18px;
+  color: #00cbd4;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.section_title-laboratory {
+  max-width: 150px;
+}
+
+.laboratory-info {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #adb4c4;
+}
+
+.laboratory-info p {
+  padding-bottom: 10px;
+}
+
+.experiments-new-content {
+  margin-bottom: 20px;
+  height: 100%;
+  max-width: 300px;
+  background: linear-gradient(-54deg, #4a5a86, #19274b);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.experiments-desktop {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.experiments-new-content span {
+  font-size: 14px;
+  color: #00cbd4;
+}
+
+.experiments-new-content p {
+  font-size: 12px;
+  color: #adb4c4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 255px;
+  line-height: 19px;
+}
+
+.experiments-btn {
+  width: 100%;
+  max-width: 320px;
+  height: 46px;
+  background-color: #edeef3;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 14px;
+  justify-content: center;
+  color: #181d3a;
+  font-weight: bold;
+  bottom: 15px;
+}
+
+.experiments-btn:hover {
+  color: #00cbd4;
+  background-color: #181d3a;
+  transition-duration: 0.5s;
+}
+
+.experiments-news {
+  max-width: 320px;
+  width: 100%;
+  max-height: 200px;
+  z-index: 10;
+  padding-bottom: 10px;
+}
+
+.experiments-new-content-background {
+  height: 100%;
+  max-width: 320px;
+  background: linear-gradient(-54deg, #4a5a86, #19274b);
+  padding: 10px;
+}

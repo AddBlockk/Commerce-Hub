@@ -1,0 +1,31 @@
+@media (max-width: 1440px) {
+  .container {
+    max-width: 340px;
+  }
+
+  .popular_games-links {
+    display: block;
+    gap: 0px;
+  }
+
+  .navigation {
+    max-width: 340px;
+  }
+
+  .laboratory-info p {
+    max-width: 270px;
+  }
+
+  .experiments-desktop {
+    display: block;
+    gap: 0px;
+  }
+
+  .experiments-new-content {
+    max-width: 320px;
+  }
+
+  .games_news-buildboard {
+    display: block;
+  }
+}
