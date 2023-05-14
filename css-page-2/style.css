@@ -183,6 +183,8 @@ body {
   align-items: center;
   text-align: center;
   font-size: 9px;
+  max-width: 220px;
+  margin: 0 auto;
 }
 
 .games_news-buildboard {
@@ -199,16 +201,11 @@ body {
 .RateIcon {
   align-items: center;
   display: flex;
-  padding-left: 30px;
 }
 
 .RateIcon:hover {
   transition-duration: 0.25s;
   fill: #0099ff;
-}
-
-.Options {
-  padding-right: 30px;
 }
 
 .Options:hover {
