@@ -141,6 +141,5 @@ body {
 .experiments-new-content-background {
   height: 100%;
   max-width: 320px;
-  background: linear-gradient(-54deg, #4a5a86, #19274b);
   padding: 10px;
 }
